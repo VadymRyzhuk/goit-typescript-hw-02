@@ -14,10 +14,8 @@
 //   }
 // }
 
-
-
 interface ComponentProps {
-
+  id: number;
 }
 
 class Component<T extends ComponentProps> {
